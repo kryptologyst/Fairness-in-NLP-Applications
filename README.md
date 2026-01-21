@@ -1,30 +1,30 @@
-# ⚖️ Fairness in NLP Applications
+# Fairness in NLP Applications
 
 A comprehensive toolkit for analyzing fairness and bias in Natural Language Processing (NLP) models using state-of-the-art techniques and modern Python best practices.
 
-## 🎯 Overview
+## Overview
 
 This project provides tools to detect, analyze, and visualize bias in NLP models across various sensitive attributes including gender, race, age, and occupation. It includes both programmatic APIs and user-friendly web interfaces for comprehensive fairness analysis.
 
-## ✨ Features
+## Features
 
-- **🔍 Comprehensive Bias Detection**: Analyze bias across multiple sensitive attributes
-- **📊 Multiple Analysis Methods**: Statistical parity, equalized odds, demographic parity
-- **🧪 Synthetic Dataset Generation**: Create controlled datasets with known bias patterns
-- **🌐 Interactive Web Interface**: User-friendly Streamlit application
-- **📈 Rich Visualizations**: Interactive plots and charts for bias analysis
-- **⚙️ Configurable Analysis**: YAML-based configuration system
-- **🧪 Comprehensive Testing**: Full test suite with pytest
-- **📋 Detailed Reporting**: JSON reports with actionable insights
+- **Comprehensive Bias Detection**: Analyze bias across multiple sensitive attributes
+- **Multiple Analysis Methods**: Statistical parity, equalized odds, demographic parity
+- **Synthetic Dataset Generation**: Create controlled datasets with known bias patterns
+- **Interactive Web Interface**: User-friendly Streamlit application
+- **Rich Visualizations**: Interactive plots and charts for bias analysis
+- **Configurable Analysis**: YAML-based configuration system
+- **Comprehensive Testing**: Full test suite with pytest
+- **Detailed Reporting**: JSON reports with actionable insights
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd 0557_Fairness_in_NLP_Applications
+   git clone https://github.com/kryptologyst/Fairness-in-NLP-Applications.git
+   cd Fairness-in-NLP-Applications
    ```
 
 2. **Install dependencies**:
@@ -106,7 +106,7 @@ dataset:
   noise_level: 0.1                # Noise in data
 ```
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### 1. Programmatic Analysis
 
@@ -164,7 +164,7 @@ The Streamlit web interface provides:
 - **Real-time Visualizations**: Interactive charts and plots
 - **Comprehensive Reports**: Download detailed analysis reports
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 
@@ -179,7 +179,7 @@ pytest tests/ --cov=src --cov-report=html
 pytest tests/test_fairness.py -v
 ```
 
-## 📈 Key Metrics
+## Key Metrics
 
 The system analyzes several fairness metrics:
 
@@ -188,7 +188,7 @@ The system analyzes several fairness metrics:
 - **Equal Opportunity**: Equal true positive rates across groups
 - **Statistical Parity**: Equal prediction distributions across groups
 
-## 🔍 Bias Detection Methods
+## Bias Detection Methods
 
 ### 1. Statistical Analysis
 - Variance analysis across demographic groups
@@ -205,7 +205,7 @@ The system analyzes several fairness metrics:
 - Group comparison plots
 - Score distribution histograms
 
-## 🌐 Web Interface Features
+## Web Interface Features
 
 ### Home Tab
 - Introduction to fairness in NLP
@@ -227,7 +227,7 @@ The system analyzes several fairness metrics:
 - Downloadable JSON reports
 - Summary statistics
 
-## ⚙️ Advanced Configuration
+## Advanced Configuration
 
 ### Custom Model Integration
 
@@ -279,7 +279,7 @@ mypy src/
 3. **New Test Cases**: Add to the bias test suite
 4. **Web Interface Components**: Extend the Streamlit app
 
-## 📚 API Reference
+## API Reference
 
 ### FairnessAnalyzer
 
@@ -307,7 +307,7 @@ class SyntheticDatasetGenerator:
     def save_dataset(self, df: pd.DataFrame, filepath: str) -> None
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -315,26 +315,18 @@ class SyntheticDatasetGenerator:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Hugging Face](https://huggingface.co/) for pre-trained models and transformers library
 - [Streamlit](https://streamlit.io/) for the web interface framework
 - [scikit-learn](https://scikit-learn.org/) for machine learning utilities
 - [Plotly](https://plotly.com/) for interactive visualizations
 
-## 📞 Support
-
-For questions, issues, or contributions:
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/discussions)
-- **Email**: your-email@example.com
-
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Support for more model architectures
 - [ ] Advanced bias mitigation techniques
@@ -342,7 +334,4 @@ For questions, issues, or contributions:
 - [ ] Integration with MLflow for experiment tracking
 - [ ] Support for multilingual bias analysis
 - [ ] API endpoints for production deployment
-
----
-
-**Made with ❤️ for fair and ethical AI**
+# Fairness-in-NLP-Applications
