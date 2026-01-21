@@ -335,3 +335,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Support for multilingual bias analysis
 - [ ] API endpoints for production deployment
 # Fairness-in-NLP-Applications
+# Fairness-in-NLP-Applications
